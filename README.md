@@ -1,6 +1,6 @@
 # NOAA-PMEL-OME_eDNA_Collection_Protocol_CTD
 
-See [NOAA-PMEL-OME_Collection_Protocol_CTD.md](https://github.com/marinednadude/NOAA-PMEL-OME_Collection_Protocol_CTD_Draft/blob/main/NOAA-PMEL-OME_Collection_Protocol_CTD.md) for detailed protocol.  
+See [NOAA-PMEL-OME_Collection_Protocol_CTD.md](https://github.com/marinednadude/NOAA-PMEL-OME_eDNA_Collection_Protocol_CTD/blob/main/NOAA-PMEL-OME_eDNA_Collection_Protocol_CTD.md) for detailed protocol.  
 This is verion 0.0 and is draft document that has not been finalized or version controlled.
 
 ## Disclaimer
