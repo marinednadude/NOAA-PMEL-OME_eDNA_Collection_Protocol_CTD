@@ -279,11 +279,11 @@ Solution : If a sterivex clogs prior to filtering 1 L (water no longer passes th
 ## REFERENCES
 
 Insert all references cited in the document.
-Please insert full DOI address when available, e.g. http://doi.dx.org/10.1007/s11258-014-0404-1
-**NEEDED**
-Link to Filtering Video (Youtube): NOAA OME Field eDNA Sample Filtering - Peristaltic Pump + Sterivex
+Galaska, Matthew P., et al. “SPOTLIGHT ON MONITORING BIODIVERSITY IMPACTS OF A CHANGING ARCTIC THROUGH ENVIRONMENTAL DNA.” Oceanography, vol. 36, no. 2/3, 2023, pp. 109–13. JSTOR, https://www.jstor.org/stable/27257888. Accessed 30 May 2024.
 
-Link to Filtering Video (Zenodo): NOAA-PMEL-OME_eDNA_Collection_Protocol_CTD_FilteringVideo
+[Filtering Video (Youtube): NOAA OME Field eDNA Sample Filtering - Peristaltic Pump + Sterivex](https://www.youtube.com/watch?v=qLiCj3Aeyqk)
+
+[Filtering Video (Zenodo): NOAA-PMEL-OME_eDNA_Collection_Protocol_CTD_FilteringVideo](https://zenodo.org/records/11397400)
 
 ## APPENDIX A: DATASHEETS
 [OME_Collection_CTD_ProtocolSheet_Draft1](https://docs.google.com/spreadsheets/d/1MKNcWcW8v8AlEfASEV-uqE-QKrhblGvU/edit#gid=561598726)
