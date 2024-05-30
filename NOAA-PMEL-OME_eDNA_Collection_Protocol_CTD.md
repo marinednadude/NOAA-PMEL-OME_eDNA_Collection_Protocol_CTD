@@ -285,6 +285,8 @@ Galaska, Matthew P., et al. “SPOTLIGHT ON MONITORING BIODIVERSITY IMPACTS OF A
 [OME_Collection_CTD_ProtocolSheet_Draft1](https://docs.google.com/spreadsheets/d/1MKNcWcW8v8AlEfASEV-uqE-QKrhblGvU/edit#gid=561598726)
 
 ## APPENDIX B: VIDEO & IMAGE FILES
+[Protocol Data Sheet](https://docs.google.com/spreadsheets/d/1MKNcWcW8v8AlEfASEV-uqE-QKrhblGvU/edit#gid=1853281061)
+
 [Filtering Video (Youtube): NOAA OME Field eDNA Sample Filtering - Peristaltic Pump + Sterivex](https://www.youtube.com/watch?v=qLiCj3Aeyqk)  
 
 [Filtering Video (Zenodo): NOAA-PMEL-OME_eDNA_Collection_Protocol_CTD_FilteringVideo](https://zenodo.org/records/11397400)  
