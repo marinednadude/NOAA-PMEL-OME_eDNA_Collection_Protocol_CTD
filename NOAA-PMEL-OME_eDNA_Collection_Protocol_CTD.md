@@ -29,7 +29,7 @@ See [MIOP_definition.md](https://github.com/BeBOP-OBON/0_protocol_collection_tem
 | time required  | 375 |
 | personnel required  | 1 |
 | language  | en |
-| issued  | **tbd** |
+| issued  |  |
 | audience  | scientists |
 | publisher  | 	NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology Program; University of Washington Cooperative Institute for Climate, Ocean, & Ecosystem Studies |
 | hasVersion  | 1 |
@@ -161,7 +161,7 @@ Bottle Sterilization Method with (RO Not Available):
 
 **Tubing and Adaptor Sterilization:**
 
-Barbed Luer Adaptor Sterilization
+Barbed Luer Adaptor Sterilization:
 1. Place luer adaptors in a clean 50 mL Falcon tube and fill with 10% bleach. 
 2. Allow adaptors to sit in bleach for 10 mins, shaking several times throughout.
 3. Rinse 3x with RO water while shaking if available. If no RO is available, rinse individual adaptor in sample seawater from the niskin 3x immediately before sampling.
@@ -187,7 +187,7 @@ Tube Sterilization Method (RO Not Available):
 **Immediately Before Sampling:**
 * All sterile fittings should be left in the packaging until ready to use. 
 * Organize your peristaltic tubing, water catchment bucket (if no sink is available), and sterivex filters for all samples at a station prior to collection. 
-* Pre-label whirl-paks with sampling number and pre-label the ziplocks with the cast number, location, date, etc.
+* Pre-label whirl-paks with sample number and pre-label the ziplocks with the cast number, location, date, etc.
 * Make a small boat of folded aluminum foil on which to rest the clean end of your peristaltic tubing (with the barbed luer adaptor) between samples
 
 **Field Notebook:**
