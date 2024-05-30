@@ -281,9 +281,10 @@ Solution : If a sterivex clogs prior to filtering 1 L (water no longer passes th
 Insert all references cited in the document.
 Galaska, Matthew P., et al. “SPOTLIGHT ON MONITORING BIODIVERSITY IMPACTS OF A CHANGING ARCTIC THROUGH ENVIRONMENTAL DNA.” Oceanography, vol. 36, no. 2/3, 2023, pp. 109–13. JSTOR, https://www.jstor.org/stable/27257888. Accessed 30 May 2024.
 
-[Filtering Video (Youtube): NOAA OME Field eDNA Sample Filtering - Peristaltic Pump + Sterivex](https://www.youtube.com/watch?v=qLiCj3Aeyqk)
-
-[Filtering Video (Zenodo): NOAA-PMEL-OME_eDNA_Collection_Protocol_CTD_FilteringVideo](https://zenodo.org/records/11397400)
-
 ## APPENDIX A: DATASHEETS
 [OME_Collection_CTD_ProtocolSheet_Draft1](https://docs.google.com/spreadsheets/d/1MKNcWcW8v8AlEfASEV-uqE-QKrhblGvU/edit#gid=561598726)
+
+## APPENDIX B: VIDEO & IMAGE FILES
+[Filtering Video (Youtube): NOAA OME Field eDNA Sample Filtering - Peristaltic Pump + Sterivex](https://www.youtube.com/watch?v=qLiCj3Aeyqk)
+[Filtering Video (Zenodo): NOAA-PMEL-OME_eDNA_Collection_Protocol_CTD_FilteringVideo](https://zenodo.org/records/11397400)
+[Sterivex Diagram](https://github.com/marinednadude/NOAA-PMEL-OME_eDNA_Collection_Protocol_CTD/blob/main/NOAA-PMEL-OME_eDNA_Collection_Protocol_CTD_SterivexDiagram.png)
