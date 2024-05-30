@@ -278,7 +278,6 @@ Solution : If a sterivex clogs prior to filtering 1 L (water no longer passes th
 
 ## REFERENCES
 
-Insert all references cited in the document.
 Galaska, Matthew P., et al. “SPOTLIGHT ON MONITORING BIODIVERSITY IMPACTS OF A CHANGING ARCTIC THROUGH ENVIRONMENTAL DNA.” Oceanography, vol. 36, no. 2/3, 2023, pp. 109–13. JSTOR, https://www.jstor.org/stable/27257888. Accessed 30 May 2024.
 
 ## APPENDIX A: DATASHEETS
