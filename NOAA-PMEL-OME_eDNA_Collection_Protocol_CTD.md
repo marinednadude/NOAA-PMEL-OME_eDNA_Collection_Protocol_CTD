@@ -183,6 +183,7 @@ Tube Sterilization Method (RO Not Available):
 * Anchor the peristaltic pump and carboy to ship bench using screws/eye bolts or bungee cords.
 * Sterilize the workstation by wiping surfaces with kimwipes and a 10% bleach solution before every sampling event. If the workspace surface is wood, use the tabletop covering to cover the sample processing area.
 * Optional but encouraged: store items that can easily tip/fall in rough seas in an anchored container such as a tupperware or crate to prevent falling and contamination.
+* Aliquot molecular grade EtOH into a 50mL Falcon tube - pipette from this when filling sterivex cartridges to avoid contaminating the stock EtOH bottle. 
 
 **Immediately Before Sampling:**
 * All sterile fittings should be left in the packaging until ready to use. 
