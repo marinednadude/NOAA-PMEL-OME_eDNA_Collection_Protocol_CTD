@@ -91,7 +91,7 @@ The time needed varies widely based on the number and type of samples collected.
 | **Durable equipment** |
 | Pipettor: 100-1000 uL | Pipetman P1000 | Gilson | 1 | Can be substituted with any accurate pipettor. |
 | Peristaltic pump | Alexis peristaltic pump | Proactive Environmental Products | 1 | Can be subsituted with generic, must fit peristaltic tubing with 3/16" inner diameter. Comes with charging accessories |
-| Peristaltic tubing | Nalgene Pharma-Grade Platinum-Cured Silicone Tubing | Thermo Scientific | 15 | Can be subsituted with generic silicone peristaltic tubing of the same diameter. |
+| Peristaltic tubing | Nalgene Pharma-Grade Platinum-Cured Silicone Tubing | Thermo Scientific | 15 | Can be subsituted with generic silicone peristaltic tubing of the same diameter. Cut into 3-5 ft pieces. |
 | Barbed luer adaptor | Male luer Lock x 1/4" 6.4mm PP Hose Barb Adapter | RSN Lab | 15 | Can be subsituted with generic |
 | Nalgene bottles | 1 L nalgene wide-mouth lab quality amber HDPE bottles | Thermo Scientific | 15 | Can be subsituted with generic, must be opaque, well-sealing and sterilizable. |
 | Carboy | 20 L Nalgene rectangular carboy with spigot | Generic | 2 |Number needed will vary based on length of fieldwork and number of samples. Must be sterilized before use. Not required if the ship has sterile RO water available for sterilization. |
