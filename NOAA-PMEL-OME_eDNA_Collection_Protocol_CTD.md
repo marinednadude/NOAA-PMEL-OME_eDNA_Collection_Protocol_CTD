@@ -82,7 +82,7 @@ Molecular biology training (including, at a minimum, sterile technique and pipet
 
 ## Time needed to execute the procedure
 
-The time needed varies widely based on the number and type of samples collected. For a majority of our sampling, three samples are collected from a single niskin rosette/CTD cast at three depths (e.g., surface, 30m, and 10m off bottom). The depth of collection and number samples affects the time required - for instance a cast to 30 m may take 10 minutes, while a cast to 600 m may take over an hour. The time estimate provided in the MIOP of 375 minutes (6.25 hours) reflects an average cast and filtration time for three casts each collecting three samples (15 total samples). Each cast and filtration of three samples takes approximately 75 minutes (1.25 hours).
+The time needed varies widely based on the number and type of samples collected. For a majority of our sampling, three samples are collected from a single niskin rosette/CTD cast at three depths (e.g., surface, 30m, and 10m off bottom). The depth of collection and number of samples affects the time required - for instance a cast to 30 m may take 10 minutes, while a cast to 600 m may take over an hour. The time estimate provided in the MIOP of 375 minutes (6.25 hours) reflects an average cast and filtration time for three casts each collecting three samples (15 total samples). Each cast and filtration of three samples takes approximately 75 minutes (1.25 hours).
 
 # EQUIPMENT
 
