@@ -1,5 +1,7 @@
 # NOAA-PMEL-OME_eDNA_Collection_Protocol_CTD
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11398179.svg)](https://doi.org/10.5281/zenodo.11398179)
+
 See [NOAA-PMEL-OME_Collection_Protocol_CTD.md](https://github.com/marinednadude/NOAA-PMEL-OME_eDNA_Collection_Protocol_CTD/blob/main/NOAA-PMEL-OME_eDNA_Collection_Protocol_CTD.md) for detailed protocol.  
 
 ## Disclaimer
