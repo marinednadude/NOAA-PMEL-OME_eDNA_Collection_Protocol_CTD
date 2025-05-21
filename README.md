@@ -1,4 +1,4 @@
-# NOAA-PMEL-OME_eDNA_Collection_Protocol_CTD
+# NOAA-PMEL-OME_eDNA_Collection_Protocol_Niskin
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11398179.svg)](https://doi.org/10.5281/zenodo.11398179)
 
