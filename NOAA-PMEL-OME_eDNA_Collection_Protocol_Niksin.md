@@ -62,7 +62,7 @@ Water collection and filtration protocol using sterivex filters to collect envir
 
 ## Method description and rationale
 
-This protocol describes the collection and filtration of seawater samples through a 0.22 µm sterile filter capsule to capture eDNA and DNA-containing particulates. DNA will later be extracted from these samples for multi-locus metabarcoding. The protocol is intended for water collected with a niskin bottle mounted on a ship-deployed CTD.
+This protocol describes the collection and filtration of seawater samples through a 0.22 µm sterile filter capsule to capture eDNA and DNA-containing particulates. DNA will later be extracted from these samples for multi-locus metabarcoding. The protocol is intended for water collected with a niskin bottle mounted on a ship-deployed CTD rosette sampler.
 
 
 ## Spatial coverage and environment(s) of relevance
