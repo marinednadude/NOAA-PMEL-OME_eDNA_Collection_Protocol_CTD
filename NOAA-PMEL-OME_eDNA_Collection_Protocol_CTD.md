@@ -1,4 +1,4 @@
-# NOAA PMEL OME eDNA Collection Protocol from a CTD
+# NOAA PMEL OME eDNA Collection Protocol from a Niskin
 
 ### Quick Links:
 
