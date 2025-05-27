@@ -73,7 +73,7 @@ samp_size_unit: mL
 | PROTOCOL NAME | LINK         | VERSION      | RELEASE DATE | INTERNAL/EXTERNAL |
 | ------------- | ------------ | ------------ | ------------ | ----------------- |
 | NOAA-PMEL-OME_Extraction_Protocol_DiscFilter_Centrifuge | Pending  | 1.0  |  |
-|  NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Centrifuge | https://github.com/marinednadude/NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Centrifuge/blob/main/NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Centrifuge.md) | 1.1.1 | 2025-05-27   | Internal|
+|  NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Centrifuge | https://github.com/marinednadude/NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Centrifuge/blob/main/NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Centrifuge.md | 1.1.1 | 2025-05-27   | Internal|
 
 ### Protocol Revision Record
 
