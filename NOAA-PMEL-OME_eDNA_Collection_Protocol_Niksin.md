@@ -1,127 +1,189 @@
+---
+# MIOP terms
+methodology_category: sample collection
+project: NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology Group protocols
+purpose: biodiversity assessment objective [OBI:0001969]
+analyses: filtration [OBI:0302885], environmental material collection process [OBI:0600012]
+geographic_location: North East Pacific Ocean [GAZ:00013765], Bering Sea [GAZ:00008990], Arctic Ocean [GAZ:00000323]
+broad_scale_environmental_context: marine biome [ENVO:00000447], marine photic zone [ENVO:00000209]
+local_environmental_context: oceanic epipelagic zone biome [ENVO:01000035], marine benthic biome [ENVO:01000024]
+environmental_medium: # sea water [ENVO:00002149]
+target: deoxyribonucleic acid (DNA) [NCIT:C449], environmental DNA [NCIT:C169106]
+creator: Shannon Brown, Han Weinrich, Zachary Gold
+materials_required: filtration [OBI:0302885]
+skills_required: sterile technique, pipetting skills, standard molecular technique, research vessel experience
+time_required: # 75
+personnel_required: 1
+language: en
+issued: 2025-05-27
+audience: scientists
+publisher: NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology Program; University of Washington Cooperative Institute for Climate, Ocean, & Ecosystem Studies
+hasVersion: 1
+license: CC0 1.0 Universal
+maturity level: mature
+
+# FAIRe terms
+samp_category: # sample
+env_broad_scale: # marine biome [ENVO:00000447]
+env_local_scale: # marine photic zone [ENVO:00000209]
+env_medium: # sea water [ENVO:00002149]
+habitat_natural_artificial_0_1: # 0
+samp_collect_method: # CTD rosette, ROV, hand deploy
+samp_collect_device: # Niskin bottle
+samp_size: # 1000
+samp_size_unit: # mL
+---
+
 # NOAA PMEL OME eDNA Collection Protocol from a Niskin
 
-### Quick Links:
+## PROTOCOL INFORMATION
 
-- [MIOP](#Minimum-Information-about-an-Omics-Protocol-(MIOP))
-- [Background](#BACKGROUND)
-- [Equipment](#EQUIPMENT)
-- [Standard Operating Procedure (main protocol)](#STANDARD-OPERATING-PROCEDURE)
+### Minimum Information about an Omics Protocol (MIOP)
 
-## Minimum Information about an Omics Protocol (MIOP)
+- MIOP terms are listed in the YAML frontmatter of this page.
+- See [MIOP_definition.md](https://github.com/BeBOP-OBON/0_protocol_collection_template/blob/main/MIOP_definition.md) for list and definitions.
 
-See [MIOP_definition.md](https://github.com/BeBOP-OBON/0_protocol_collection_template/blob/main/MIOP_definition.md) for list and definitions.
+### Making eDNA FAIR (FAIRe)
 
+- FAIRe terms are listed in the YAML frontmatter of this page.
+- See <https://fair-edna.github.io/download.html> for the FAIRe checklist and more information.
+- See <https://fair-edna.github.io/guidelines.html#missing-values> for guidelines on missing values that can be used for missing FAIRe or MIOP terms.
 
-| MIOP Term  | Value |
-| ------------- | ------------- | 
-| methodology category  | sample collection |
-| project  | NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology Program Protocols |
-| purpose  | biodiversity assessment objective [OBI:0001969] |
-| analyses  | filtration [OBI:0302885], environmental material collection process [OBI:0600012] | |
-| geographic location  | North East Pacific Ocean [GAZ:00013765], Bering Sea [GAZ:00008990], Arctic Ocean [GAZ:00000323] |
-| broad-scale environmental context  |oceanic epipelagic zone biome [ENVO:01000035], marine biome [ENVO:00000447], marine benthic biome [ENVO:01000024] |
-| local environmental context  |	oceanic epipelagic zone biome [ENVO:01000035], marine benthic biome [ENVO:01000024]  |
-| environmental medium  | sea water [ENVO:00002149] |
-| target  |environmental DNA [NCIT:C169106]|
-| creator  | 	Shannon Brown, Han Weinrich, and Zachary Gold |
-| materials required  | filtration [OBI:0302885]|, 
-| skills required  | sterile technique, pipetting skills, and standard molecular technique, research vessel experience |
-| time required  | 375 |
-| personnel required  | 1 |
-| language  | en |
-| issued  | 2024-05-30 |
-| audience  | scientists |
-| publisher  | 	NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology Program; University of Washington Cooperative Institute for Climate, Ocean, & Ecosystem Studies |
-| hasVersion  | 1 |
-| license  | CC0 1.0 Universal |
-| maturity level  | mature |
+### Authors
 
-## AUTHORS
+- All authors known to have contributed to the preparation of this protocol, including those who filled in the template.
+- Visit https://orcid.org/ to register for an ORCID.
+- Date is the date the author first worked on the protocol.
 
-| PREPARED BY All authors known to have contributed to the preparation of this protocol, including those who filled in the template.  | AFFILIATION | ORCID (visit https://orcid.org/ to register) | DATE |
-| ------------- | ------------- | ------------- | ------------- |
-| Shannon Brown | Ocean Molecular Ecology, NOAA PMEL & UW CICOES  | 0000-0001-9808-2638 |2024-02-02|
-| Han Weinrich  | Ocean Molecular Ecology, NOAA PMEL & UW CICOES  | 0009-0007-6063-0986 |2024-02-02|
+| PREPARED BY  | AFFILIATION  | ORCID        | DATE       |
+| ------------ | ------------ | ------------ | ---------- |
+|Shannon Brown | Ocean Molecular Ecology, NOAA PMEL & UW CICOES  | 0000-0001-9808-2638 |2024-02-02|
+|Han Weinrich  | Ocean Molecular Ecology, NOAA PMEL & UW CICOES  | 0009-0007-6063-0986 |2024-02-02|
 |Sean McAllister	|Ocean Molecular Ecology, NOAA PMEL & UW CICOES	|0000-0001-6654-3495	|2024-02-02|
 |Matt Galaska	|Ocean Molecular Ecology, NOAA PMEL|	0000-0002-4257-0170	|2024-02-02|
 |Zachary Gold	|Ocean Molecular Ecology, NOAA PMEL	|0000-0003-0490-7630	|2024-02-02|
 
+### Related Protocols
 
-## RELATED PROTOCOLS
+- This section contains protocols that should be known to users of this protocol.
+- Include the link to each protocol.
+- Include the version number and release date (if available).
+- Internal/External: "Internal" are derivative or altered protocols, or other protocols in this workflow. "External" are protcols from manufacturers or other groups.
 
-| PROTOCOL NAME | LINK  | VERSION The version of the protocol you linked to | RELEASE DATE This is the date corresponding to the version listed to the left |
-| ------------- | ------------- | ------------- | ------------- |
-| Automated sampler (McLane PPS) collection  | Pending  | 1.0  |  |
+| PROTOCOL NAME | LINK         | VERSION      | RELEASE DATE | INTERNAL/EXTERNAL |
+| ------------- | ------------ | ------------ | ------------ | ----------------- |
+| NOAA-PMEL-OME_Extraction_Protocol_DiscFilter_Centrifuge | Pending  | 1.0  |  |
+|  NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Centrifuge | https://github.com/marinednadude/NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Centrifuge/blob/main/NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Centrifuge.md) | 1.1.1 | 2025-05-27   | Internal|
 
-# BACKGROUND
+### Protocol Revision Record
 
-## Summary
+- Version numbers start at 1.0.0 when the protocol is first completed and will increase when changes that impact the outcome of the procedure are made (patches: 1.0.1; minor changes: 1.1.0; major changes: 2.0.0).
+- Release date is the date when a given protocol version was finalised.
+- Description of revisions includes a brief description of what was changed relative to the previous version.
+
+| VERSION | RELEASE DATE | DESCRIPTION OF REVISIONS |
+| ------------- | ------------- | ------------- |
+| 1.0.0 | 2024-05-30 | Initial release |
+| 1.1.0 | 2024-05-30 | 	Addition of FAIR eDNA terms in YAML frontmatter, formatting edits, and minor content revisions |
+
+## ACRONYMS AND ABBREVIATIONS
+
+| ACRONYM / ABBREVIATION | DEFINITION |
+| ------------- | ------------- |
+|CICOES| Cooperative Institute for Climate, Ocean, & Ecosystem Studies
+| CTD | Conductivity Temperature Depth |
+|eDNA	|environmental DNA|
+|EtOH| Ethanol|
+|NOAA|National Oceanic and Atmospheric Administration
+|OME	|Ocean Molecular Ecology|
+|PMEL	|Pacific Marine Environmental Laboratory|
+|PPE| Personal protective equipment |
+|RO| Reverse Osmosis|
+|ROV| Remotely Operated Vehicle|
+|UW| University of Washington
+
+## GLOSSARY
+
+| SPECIALISED TERM | DEFINITION |
+| ------------- | ------------- |
+| Conductivity, Temperature, Depth (CTD) sensor | Sensor used to measure temperature, conductivity and pressure. Additional sensors are often attached to the frame of the deployable CTD frame (oxygen, chlorophyll, pH, etc.) to collect additional data. Often, niskin bottles are attached to the same deployable metal frame as the CTD and ancilliary sensors so that water parameter data are collected alongside niskin water samples. Deployments of this suite of instruments and sensors on the same frame is often referred to as a "CTD cast". |
+| Field negative control | Sampling negative control. Typically distilled or reverse osmosis water run through a filter like an seawater eDNA sample to control for contamination in the field sampling step.  |
+| Niskin bottle  | Plastic cylindrical bottle of varying volumes for collecting descrete water samples. A stopper at each end of the bottle can be "cocked" open with an electronic or weight triggered release mechanism causing the stoppers to snap shut. This is remotely triggered so the bottle closes at a prescribed depth. Often, multiple bottles are arranged on the same frame as a CTD and other sensors in a "rosette". |
+
+## BACKGROUND
+
+### Summary
 
 Water collection and filtration protocol using sterivex filters to collect envirnomental DNA from marine ecosystems. This collection and filtration protocol is used by the NOAA PMEL Ocean Molecular Ecology (OME) Group.
 
-
-## Method description and rationale
+### Method Description and Rationale
 
 This protocol describes the collection and filtration of seawater samples through a 0.22 µm sterile filter capsule to capture eDNA and DNA-containing particulates. DNA will later be extracted from these samples for multi-locus metabarcoding. The protocol is intended for water collected with a niskin bottle mounted on a ship-deployed CTD rosette sampler.
 
-
-## Spatial coverage and environment(s) of relevance
+### Spatial Coverage and Environment(s) of Relevance
 
 This protocol has been used to filter eDNA from tens of thousands of sea water samples taken from coastal stations off the western coast of North America in the Northeastern Pacific Ocean, Bering Sea and Arctic Ocean (primarily off California, Oregon, Washington, and Alaska). Samples collected range in depth from surface ocean (epipelagic biome) to just off bottom (benthic biome) at varying distances from shore (coastal to off-shelf).
-## Personnel Required
+
+### Personnel Required
 
 One person with pipetting experience. Recommend research vessel experience, but not required.
 
-## Safety
+### Safety
 
 This protocol does not involve any hazardous chemicals, although standard precautions including wearing PPE should be taken to avoid skin and eye exposure to bleach and ethanol.
 
-## Training requirements
+### Training Requirements
 
 Molecular biology training (including, at a minimum, sterile technique and pipetting technique) is required to conduct this protocol. Experience with going to sea and sample collection under seagoing conditions is encouraged, at a minimum personel should be trained in the filtering protocol in a laboratory/docked ship setting beforehand.
 
-## Time needed to execute the procedure
+### Time Required to Execute the Procedure
 
-The time needed varies widely based on the number and type of samples collected. For a majority of our sampling, three samples are collected from a single niskin rosette/CTD cast at three depths (e.g., surface, 30m, and 10m off bottom). The depth of collection and number of samples affects the time required - for instance a cast to 30 m may take 10 minutes, while a cast to 600 m may take over an hour. The time estimate provided in the MIOP of 375 minutes (6.25 hours) reflects an average cast and filtration time for three casts each collecting three samples (15 total samples). Each cast and filtration of three samples takes approximately 75 minutes (1.25 hours).
+The time needed varies widely based on the number and type of samples collected. For a majority of our sampling, niskin bottles on a CTD rosette and/or ROV are triggered to collect at three depths (e.g., surface, 30m, and 10m off bottom). Then pending the scientific questions and niskin size, a singular sample or triplicate samples are collected from each niskin. The depth of collection and number of samples affects the time required - for instance a cast to 30 m may take 10 minutes, while a cast to 600 m may take over an hour. Collecting samples from the niskins take between 10-30 minutes, depending on access and whether the water is being used for other science.  The filtration and preservation of three singular samples on average takes 45 minutes. If additional replicates are added, you can expect the filtering time to double or triple. Therefore, the total collection time for a singular cast with three niskins triggered and one sample taken from each niskin is 75 minutes (1 hour and 25 minutes) on average. More casts, more samples = more time.
 
-# EQUIPMENT
+## EQUIPMENT
+
+- Description: E.g., "filter".
+- Product Name and Model: Provide the official name of the product.
+- Manufacturer: Provide the name of the manufacturer of the product.
+- Quantity: Provide quantities necessary for one application of the standard operating procedure (e.g., number of filters).
+- Remark: For example, some of the consumable may need to be sterilized, some commercial solution may need to be diluted or shielded from light during the operating procedure.
+
+For a singular cast with three unique samples taken (one sample per niskin):
 
 | DESCRIPTION e.g. filter | PRODUCT NAME AND MODEL Provide the official name of the product | MANUFACTURER Provide the name of the manufacturer of the product. | QUANTITY Provide quantities necessary for one application of the standard operating procedure (e.g. number of filters). | REMARK For example, some of the consumable may need to be sterilized, some commercial solution may need to be diluted or shielded from light during the operating procedure. |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | **Durable equipment** |
-| Pipettor: 100-1000 uL | Pipetman P1000 | Gilson | 1 | Can be substituted with any accurate pipettor. |
-| Peristaltic pump | Alexis peristaltic pump | Proactive Environmental Products | 1 | Can be subsituted with generic, must fit peristaltic tubing with 3/16" inner diameter. Comes with charging accessories |
-| Peristaltic tubing | Nalgene Pharma-Grade Platinum-Cured Silicone Tubing, Size 15 | Thermo Scientific | 3 | Comes as 25 ft overall length - need to be cut in ~5-6, 4-5 ft pieces with razor blade. Can be subsituted with generic silicone peristaltic tubing of the same diameter. |
-| Barbed luer adaptor | Male luer Lock x 1/4" 6.4mm PP Hose Barb Adapter | RSN Lab | 15 | Can be subsituted with generic |
-| Nalgene bottles | 1 L nalgene wide-mouth lab quality amber HDPE bottles | Thermo Scientific | 15 | Can be subsituted with generic, must be opaque, well-sealing and sterilizable. |
-| Carboy | 20 L Nalgene rectangular carboy with spigot | Generic | 2 |Number needed will vary based on length of fieldwork and number of samples. Must be sterilized before use. Not required if the ship has sterile RO water available for sterilization. |
+| Pipettor: 100-1000 μL | Pipetman P1000 | Gilson | 1 | Can be substituted with any accurate pipettor. |
+| Peristaltic pump | Alexis peristaltic pump | Proactive Environmental Products | 1 | Can be subsituted with generic, must fit peristaltic tubing with 3/16" inner diameter. |
+| Peristaltic tubing | Nalgene Pharma-Grade Platinum-Cured Silicone Tubing, Size 15 | Thermo Scientific | 3 | Need to be cut in 4-5 ft pieces with razor blade. Can be subsituted with generic silicone peristaltic tubing of the same diameter. |
+| Barbed luer adaptor | Male luer Lock x 1/4" 6.4mm PP Hose Barb Adapter | RSN Lab | 3 | Can be subsituted with generic |
+| Nalgene bottles | 1 L nalgene wide-mouth lab quality amber HDPE bottles | Thermo Scientific | 3 | Can be subsituted with generic - must be opaque, well-sealing and sterilizable. |
+| Carboy | 20 L Nalgene rectangular carboy with spigot | Generic | 1 |Number needed will vary based on length of fieldwork and number of samples. Must be sterilized before use. Not required if the ship has sterile RO water available. |
 |Wash bottles|Safety wash bottles 500 mL for EtOH, bleach and RO water|VWR|3|Can be substituted with generic, but recommend purchasing different colored bottles for each reagent. Must be sterilized before use. |
-| Bucket | 5 gallon bucket | Generic | 3 |  |
+| Bucket | 5 gallon bucket | Generic | 2 |  |
 | Bungee cords | Bungee cords | Generic | 10 | Varying sizes recommended  |
 | Tabletop covering | Disposable plastic or paper table covering| Generic | 1 |  |
 | **Consumable equipment** |
-| 50 mL tube | Falcon 50 mL high clarity conical centrifuge tube | Corning Falcon | 2 | Can be substituted with generic. Must be sterile. |
+| 50 mL tube | Falcon 50 mL high clarity conical centrifuge tube | Corning Falcon | 1 | Can be substituted with generic. Must be sterile. |
 | Foil | Aluminium Foil | Generic | 1 | |
-| Sterivex | Sterivex-GP pressure filter unit | Millipore Sigma |15 |Cannot be substituted for this protocol.  |
-| Sterivex/syringe caps | Male/female sterile luer caps | McKesson | 30 | Can be subsituted with generic, must be sterile and individually packaged. |
+| Sterivex | Sterivex-GP pressure filter unit | Millipore Sigma | 3 |Cannot be substituted for this protocol.  |
+| Sterivex/syringe caps | Male/female sterile luer caps | McKesson | 6 | Can be subsituted with generic, must be sterile and individually packaged. |
 | Label tape | VWR general-purpose laboratory labeling tape | VWR |1  | Can be substituted with generic. |
-| Whirl-pak | Whirl-pak standard sample bags (4 oz. capacity) | Nasco | 15 | Can be substituted with generic, must be sealing and sterile. |
-| Plastic bag | Sealable plastic storage bags gallon/large | Generic | 5 | Can be substituted with generic.|
-| 1000 μL pipette tips  | TipOne RPT filter tips 1000 μL | USA Scientific | 30 | Can be subsituted with generic. Must be sterile and filtered. Must fit into the inlet of sterivex. |
-| Parafilm | Parafilm  | Sigma Aldrich | 2 | (feet) |
-| Kimwipes | Delicate task wipes | Kimtech |6 | Can be substituted with generic. Must be lint-free.|
-| Nitrile gloves | Powder free nitrile gloves | Fisher Scientific |10  | Can be subsituted with generic nitrile gloves. Does not come sterile, must be sterilized before use (10% bleach followed by 70% EtOH) |
+| Whirl-pak | Whirl-pak standard sample bags (4 oz. capacity) | Nasco | 3| Can be substituted with generic, must be sealing and sterile. |
+| Plastic bag | Sealable plastic storage bags gallon/large | Generic | 1 | Can be substituted with generic.|
+| 1000 μL pipette tips  | TipOne RPT filter tips 1000 μL | USA Scientific | 6 | Can be subsituted with generic. Must be sterile and filtered. Must fit into the inlet of sterivex. |
+| Parafilm | Parafilm  | Sigma Aldrich |60 cm | |
+| Kimwipes | Delicate task wipes | Kimtech |2 wipes| Can be substituted with generic. Must be lint-free.|
+| Nitrile gloves | Powder free nitrile gloves | Fisher Scientific |2 pairs | Can be subsituted with generic nitrile gloves. Does not come sterile, must be sterilized before use (10% bleach followed by 70% EtOH) |
 | Field notebook | Durable, hardcover lab notebook | Generic | 1 | Dedicated to fieldwork | 
 | Writing utensils | Pens and sharpies | Generic | 2 |Not made of wood - must be able to be wiped down with bleach/EtOH.  |
 | **Chemicals** |
-| 100% molecular grade EtOH | 200 proof molecular biology grade ethanol | Fisher Scientific | 30|(mL) Can be substituted with generic, must be 200 proof and molecular biology grade |
-| 70% EtOH | Molecular biology grade ethanol | Generic | 20|(mL) Don't expose to UV light. |
-| 10% bleach | Hypochlorite bleach | Clorox | 3000|(mL) Remake every ~5 days as bleach decomposes quickly at 10% concentration. Don't expose to UV light. The majority is used in bottle/tube sterilization.|
-| RO water | Ultrapure 18 MΩ RO water | generic | 3000| (mL) Must run through reverse osmosis filter with an irratiated 0.2 micron filter to remove biological contaminants.  |
+| 100% molecular grade EtOH | 200 proof molecular biology grade ethanol | Fisher Scientific | 6000 μL | Can be substituted with generic, must be 200 proof and molecular biology grade |
+| 70% EtOH | Molecular biology grade ethanol | 10 mL |  |
+| 10% bleach | Hypochlorite bleach | Clorox | 400 mL| Remake every ~5 days as bleach decomposes quickly at 10% concentration. The majority is used in bottle/tube sterilization.|
+| RO water | Ultrapure 18 MΩ RO water | generic | 400 mL| Must run through reverse osmosis filter with an irratiated 0.2 micron filter to remove biological contaminants.  |
 
-# STANDARD OPERATING PROCEDURE
-
-## Sampling
+## STANDARD OPERATING PROCEDURE
 
 ### Preparation
 
@@ -202,8 +264,6 @@ This protocol is designed for samples collected with a niskin bottle - the sampl
 
 - Fill 1 L Nalgene bottle with 1 L of seawater. It is important to do this before the sample seawater has sat on the deck in the sun. After collecting, if you don’t have time to filter, label, and store bottles in the fridge (4˚C) for up to 12 hours (>4 hours is not ideal). Note the length of time a seawater sample sits in the fridge in the field notebook.
 
-
-
 ### Filtration
 
 **Method 1: Sample seawater is drawn through the sterivex via tubing attached to the outlet. The sterivex inlet is submerged in the sample seawater and then pumped through the sterivex so only filtered water enters the tubing. With this method, the same tubing can be used for all samples taken from a single site (i.e. at different depths). Method 1 is preferred both for decreased tubing usage and reduced risk of contamination.**
@@ -223,9 +283,9 @@ This protocol is designed for samples collected with a niskin bottle - the sampl
 - Once all is filtered, continue pumping until all water is removed from the sterivex cartridge. Remove the sterivex from the peristaltic tubing and immediately cap the outlet with a sterivex/syringe cap. Capping the outlet prevents EtOH from leaking out in the next step.
 - Move the bottle and peristaltic tubing into a dirty pile to avoid reuse.
 
-### Sample preservation
+### Sample Preservation
 
-- Using a 1000 uL pipettor, gently push the tip into the sterivex inlet to make a seal (important!) and slowly push 1000 uL of 100% molecular grade EtOH into the sterivex filter. Repeat step with a new tip, so the total volume in the sterivex is 2000 uL.
+- Using a 1000 μL pipettor, gently push the tip into the sterivex inlet to make a seal (important!) and slowly push 1000 μL of 100% molecular grade EtOH into the sterivex filter. Repeat step with a new tip, so the total volume in the sterivex is 2000 μL.
 - Cap the sterivex inlet with a sterivex/syringe cap. Once sealed, shake the sterivex to ensure all sides of the filter paper have been saturated with EtOH.
 - Label outside of sterivex with eDNA sample number.
 - Put the entire sealed cartridge into a small labeled whirl-pak. Place all sterivex from a single site (replicates or samples taken at different depths in a single niskin rosette/CTD cast) into a single gallon plastic bag. Store in -20˚C freezer.
@@ -236,11 +296,11 @@ Store preserved samples in a -20˚C freezer for the duration of the cruise. When
 
 Any issues with storage should be noted. Samples **may potentially** remain preserved if briefly thawed to refrigeration temperature (4˚C) and returned to freezing temperatures within 24 hours. 
 
-## Quality control
+### Quality Control
 
-A field negative control consisting of sterile RO water in a pre-filled and sealed (prior to fieldwork) 1L bottle is filtered at the start and end of a cruise using new sterile peristaltic tube and fittings. If more than 50 samples are collected on a cruise, an additional negative control is filtered every 50 samples. 
+A field negative control consisting of sterile RO water in a pre-filled and sealed (prior to fieldwork) 1 L bottle is filtered at the start and end of a cruise using new sterile peristaltic tube and fittings. If more than 50 samples are collected on a cruise, an additional negative control is filtered every 50 samples. 
 
-## Basic troubleshooting guide
+### Basic Troubleshooting Guide
 
 **Issue 1:** Clogged filter.
 
@@ -250,39 +310,12 @@ Solution : If a sterivex clogs prior to filtering 1 L (water no longer passes th
 
 **Solution:** If broken during filtering, stop filtering, record volume filtered, and denote damage. Next, use parafilm and label tape to seal the broken outlet/inlet of the sterivex. Store in whirlpak. Sample might be salvagable. Remove any peristaltic tubing, bottles, etc. contaminated by sample seawater or sterivex contents from the field of sampling.
 
-## ACRONYMS AND ABBREVIATIONS
-
-| ACRONYM / ABBREVIATION | DEFINITION |
-| ------------- | ------------- |
-|eDNA	|environmental DNA|
-| RO | Reverse Osmosis  |
-| CTD | Conductivity Temperature Depth |
-|PPE    | Personal protective equipment |
-|EtOH| Ethanol|
-|OME	|Ocean Molecular Ecology
-|PMEL	|Pacific Marine Environmental Laboratory
-|NOAA|National Oceanic and Atmospheric Administration
-|UW| University of Washington
-|CICOES| Cooperative Institute for Climate, Ocean, & Ecosystem Studies
-|MBON	|Marine Biodiversity Observation Network|
-|MBARI| Monterey Bay Aquarium Research Institute|
-|WC-OBON|West Coast Ocean Biomolecular Observing Network|
-
-## GLOSSARY
-
-| SPECIALISED TERM | DEFINITION |
-| ------------- | ------------- |
-| Field negative control | Sampling negative control. Typically distilled or reverse osmosis water run through a filter like an seawater eDNA sample to control for contamination in the field sampling step.  |
-| Conductivity, Temperature, Depth (CTD) sensor | Sensor used to measure temperature, conductivity and pressure. Additional sensors are often attached to the frame of the deployable CTD frame (oxygen, chlorophyll, pH, etc.) to collect additional data. Often, niskin bottles are attached to the same deployable metal frame as the CTD and ancilliary sensors so that water parameter data are collected alongside niskin water samples. Deployments of this suite of instruments and sensors on the same frame is often referred to as a "CTD cast". |
-| Niskin bottle  | Plastic cylindrical bottle of varying volumes for collecting descrete water samples. A stopper at each end of the bottle can be "cocked" open with an electronic or weight triggered release mechanism causing the stoppers to snap shut. This is remotely triggered so the bottle closes at a prescribed depth. Often, multiple bottles are arranged on the same frame as a CTD and other sensors in a "rosette". |
-
 ## REFERENCES
 
 Galaska, M. P., Brown, S. D., & McAllister, S. M. (2023). SPOTLIGHT ON MONITORING BIODIVERSITY IMPACTS OF A CHANGING ARCTIC THROUGH ENVIRONMENTAL DNA. Oceanography (Washington, D.C.), 36(2/3), 109–113.
 
-
 ## APPENDIX A: DATASHEETS
-[OME_Collection_CTD_ProtocolSheet_Draft1](https://docs.google.com/spreadsheets/d/1MKNcWcW8v8AlEfASEV-uqE-QKrhblGvU/edit#gid=561598726)
+[OME_Collection_CTD_ProtocolSheet](https://docs.google.com/spreadsheets/d/1MKNcWcW8v8AlEfASEV-uqE-QKrhblGvU/edit#gid=561598726)
 
 ## APPENDIX B: VIDEO & IMAGE FILES
 [Protocol Data Sheet](https://docs.google.com/spreadsheets/d/1MKNcWcW8v8AlEfASEV-uqE-QKrhblGvU/edit#gid=1853281061)
