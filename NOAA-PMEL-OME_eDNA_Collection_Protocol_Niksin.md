@@ -84,7 +84,7 @@ samp_size_unit: mL
 | VERSION | RELEASE DATE | DESCRIPTION OF REVISIONS |
 | ------------- | ------------- | ------------- |
 | 1.0.0 | 2024-05-30 | Initial release |
-| 1.1.0 | 2024-05-30 | 	Addition of FAIR eDNA terms in YAML frontmatter, formatting edits, and minor content revisions |
+| 1.1.0 | 2025-05-29 | 	Addition of FAIR eDNA terms in YAML frontmatter, formatting edits, and minor content revisions |
 
 ## ACRONYMS AND ABBREVIATIONS
 
@@ -92,6 +92,7 @@ samp_size_unit: mL
 | ------------- | ------------- |
 |CICOES| Cooperative Institute for Climate, Ocean, & Ecosystem Studies
 | CTD | Conductivity Temperature Depth |
+|DNA	|Deoxyribonucleic acid|
 |eDNA	|environmental DNA|
 |EtOH| Ethanol|
 |NOAA|National Oceanic and Atmospheric Administration
@@ -107,7 +108,7 @@ samp_size_unit: mL
 | SPECIALISED TERM | DEFINITION |
 | ------------- | ------------- |
 | Conductivity, Temperature, Depth (CTD) sensor | Sensor used to measure temperature, conductivity and pressure. Additional sensors are often attached to the frame of the deployable CTD frame (oxygen, chlorophyll, pH, etc.) to collect additional data. Often, niskin bottles are attached to the same deployable metal frame as the CTD and ancilliary sensors so that water parameter data are collected alongside niskin water samples. Deployments of this suite of instruments and sensors on the same frame is often referred to as a "CTD cast". |
-| Field negative control | Sampling negative control. Typically distilled or reverse osmosis water run through a filter like an seawater eDNA sample to control for contamination in the field sampling step.  |
+| Field blank | Sampling negative control. Typically distilled or reverse osmosis water run through a filter like a seawater eDNA sample to control for contamination in the field sampling step.  |
 | Niskin bottle  | Plastic cylindrical bottle of varying volumes for collecting descrete water samples. A stopper at each end of the bottle can be "cocked" open with an electronic or weight triggered release mechanism causing the stoppers to snap shut. This is remotely triggered so the bottle closes at a prescribed depth. Often, multiple bottles are arranged on the same frame as a CTD and other sensors in a "rosette". |
 
 ## BACKGROUND
@@ -205,7 +206,7 @@ Recommend completing before embarking onto the vessel, preferably back in the la
 9. Once complete, seal the carboy lid and spigot with parafilm. If using immiedately, fill with RO water. Otherwise, this sealed, sterile carboy can be stored for month+.
 
 **Bottle Sterilization:**
-One sterile bottle is required for each sample and each negative control.
+One sterile bottle is required for each sample and each field blank.
 
 Bottle Sterilization Method (RO Available):
 
@@ -226,7 +227,7 @@ Bottle Sterilization Method with (RO Not Available):
 Barbed Luer Adaptor Sterilization:
 1. Place luer adaptors in a clean 50 mL Falcon tube and fill with 10% bleach. 
 2. Allow adaptors to sit in bleach for 10 mins, shaking several times throughout.
-3. Rinse 3x with RO water while shaking if available. If no RO is available, rinse individual adaptor in sample seawater from the niskin 3x immediately before sampling.
+3. Rinse 3x with RO water while shaking if available. If no RO is available, rinse individual adaptors in sample seawater from the niskin 3x immediately before sampling.
 
 Tube Sterilization Method (RO Available):
 1. Prepare a 10% bleach solution in one of the buckets (6-10 L total, depending on needs). Then grab two sterile buckets and fill one with RO water (6-10 L total, depending on needs). Leave the other sterile bucket for peristaltic tubing storage post-sterilization.
@@ -262,33 +263,33 @@ On smaller cruises where no CTD logs are kept or water is sampled without a CTD,
 ### Sampling
 This protocol is designed for samples collected with a niskin bottle - the samples are expected to be descrete and sealed masses of water that can be transferred to a 1 L Nalgene bottle without contamination (typically from the spout/spigot of the niskin bottle). For our samples, niskin bottles are remotely triggered to close at a specified depth and collected alongside complementary hydrographic data (using a CTD attached to the niskin sampling rosette). 
 
-- Fill 1 L Nalgene bottle with 1 L of seawater. It is important to do this before the sample seawater has sat on the deck in the sun. After collecting, if you don’t have time to filter, label, and store bottles in the fridge (4˚C) for up to 12 hours (>4 hours is not ideal). Note the length of time a seawater sample sits in the fridge in the field notebook.
+Fill 1 L Nalgene bottle with 1 L of seawater. It is important to do this before the sample seawater has sat on the deck in the sun. After collecting, if you don’t have time to filter, label, and store bottles in the fridge (4˚C) for up to 12 hours (>4 hours is not ideal). Note the length of time a seawater sample sits in the fridge in the field notebook.
 
 ### Filtration
 
-**Method 1: Sample seawater is drawn through the sterivex via tubing attached to the outlet. The sterivex inlet is submerged in the sample seawater and then pumped through the sterivex so only filtered water enters the tubing. With this method, the same tubing can be used for all samples taken from a single site (i.e. at different depths). Method 1 is preferred both for decreased tubing usage and reduced risk of contamination.**
+**Method 1: Sample seawater is drawn through the sterivex via tubing attached to the outlet. The sterivex inlet is submerged in the sample seawater and then pumped through the sterivex so only filtered water enters the tubing. With this method, the same tubing can be used for all samples taken from a single site (i.e. at different depths). Method 1 requires less tubing and reduced overall risk of contamination.**
 
-- Remove a sterile peristaltic tube from the sterile bucket and insert into the slot in the  pump. Place one end in a bucket or sink, and insert a barbed luer adaptor into the other end. During this process, keep the tubing on the adaptor side off the counter to avoid contamination (i.e., use aluminum boat). 
-- Remove sterivex from packaging - avoid touching inlet or outlet. Attach to sterile peristaltic tubing by screwing the sterivex outlet into the barbed luer adaptor (be careful not to overtighten, the sterivex outlet can break).
-- Stick the inlet end of the sterivex into the sample seawater in the Nalgene bottle - do not to submerge the sterivex entirely. If the junction between the sterivex outlet and tubing is submerged, sample seawater can get sucked into the tubing, bypass the filter, and as a result, contaminate the tubing and reduce the sample seawater volume passed through the sterivex.
-- Outflow can be directed to the sink or bucket. Start the pump at 35 rpm and adjust upwards accordingly so that the sample seawater takes 7-10 minutes for a sample with low turbidity.
-- Once all is filtered, continue pumping until all water is removed from the sterivex. Remove the sterivex from the tubing and immediately cap the outlet with a sterivex cap. Capping the outlet prevents EtOH from leaking out in the next step. Place the section of tubing with the barbed luer adaptor your clean aluminum foil boat.
+1. Remove a sterile peristaltic tube from the sterile bucket and insert into the slot in the  pump. Place one end in a bucket or sink, and insert a barbed luer adaptor into the other end. During this process, keep the tubing on the adaptor side off the counter to avoid contamination (i.e., use aluminum boat). 
+2. Remove sterivex from packaging - avoid touching inlet or outlet. Attach to sterile peristaltic tubing by screwing the sterivex outlet into the barbed luer adaptor (be careful not to overtighten, the sterivex outlet can break).
+3. Stick the inlet end of the sterivex into the sample seawater in the Nalgene bottle - do not submerge the sterivex entirely. If the junction between the sterivex outlet and tubing is submerged, sample seawater can get sucked into the tubing, bypass the filter, and as a result, contaminate the tubing and reduce the sample seawater volume passed through the sterivex.
+4. Outflow can be directed to the sink or bucket. Start the pump at 35 rpm and adjust upwards accordingly so that the sample seawater takes 7-10 minutes for a sample with low turbidity.
+5. Once all is filtered, continue pumping until all water is removed from the sterivex. Remove the sterivex from the tubing and immediately cap the outlet with a sterivex cap. Capping the outlet prevents EtOH from leaking out in the next step. Place the section of tubing with the barbed luer adaptor your clean aluminum foil boat.
 
 **Method 2: Sample is pushed through the sterivex via tubing attached to the inlet. The end of the tubing is submerged in the sample seawater and sample seawater passes through the tubing before entering the sterivex. With this method, a new sterile piece of peristaltic tubing is required for each sample.**
 
-- Remove a sterile peristaltic tube from the sterile bucket and insert into the slot in the  pump. This tube will only be used for a single sample and should be replaced between each filtered seawater sample.
-- Remove sterivex from packaging - avoid touching inlet or outlet. Attach to peristaltic tubing by pushing the sterivex inlet into the tubing end closest to the sink or bucket.
-- Stick the other end of the peristaltic tubing into the seawater sample in the Nalgene bottle.
-- Outflow with the attached sterivex can be directed to the sink or bucket. Start the pump at 35 rpm and adjust upwards accordingly so that the sample seawater takes 4-7 minutes for a sample with low turbidity. Ensure that the sterivex is securely held and the sterivex outlet does not rest in the sink or bucket edge.
-- Once all is filtered, continue pumping until all water is removed from the sterivex cartridge. Remove the sterivex from the peristaltic tubing and immediately cap the outlet with a sterivex/syringe cap. Capping the outlet prevents EtOH from leaking out in the next step.
-- Move the bottle and peristaltic tubing into a dirty pile to avoid reuse.
+1. Remove a sterile peristaltic tube from the sterile bucket and insert into the slot in the  pump. This tube will only be used for a single sample and should be replaced between each filtered seawater sample.
+2. Remove sterivex from packaging - avoid touching inlet or outlet. Attach to peristaltic tubing by pushing the sterivex inlet into the tubing end closest to the sink or bucket.
+3. Stick the other end of the peristaltic tubing into the seawater sample in the Nalgene bottle.
+4. Outflow with the attached sterivex can be directed to the sink or bucket. Start the pump at 35 rpm and adjust upwards accordingly so that the sample seawater takes 4-7 minutes for a sample with low turbidity. Ensure that the sterivex is securely held and the sterivex outlet does not rest in the sink or bucket edge.
+5. Once all is filtered, continue pumping until all water is removed from the sterivex cartridge. Remove the sterivex from the peristaltic tubing and immediately cap the outlet with a sterivex/syringe cap. Capping the outlet prevents EtOH from leaking out in the next step.
+6. Move the bottle and peristaltic tubing into a dirty pile to avoid reuse.
 
 ### Sample Preservation
 
-- Using a 1000 μL pipettor, gently push the tip into the sterivex inlet to make a seal (important!) and slowly push 1000 μL of 100% molecular grade EtOH into the sterivex filter. Repeat step with a new tip, so the total volume in the sterivex is 2000 μL.
-- Cap the sterivex inlet with a sterivex/syringe cap. Once sealed, shake the sterivex to ensure all sides of the filter paper have been saturated with EtOH.
-- Label outside of sterivex with eDNA sample number.
-- Put the entire sealed cartridge into a small labeled whirl-pak. Place all sterivex from a single site (replicates or samples taken at different depths in a single niskin rosette/CTD cast) into a single gallon plastic bag. Store in -20˚C freezer.
+1. Using a 1000 μL pipettor, gently push the tip into the sterivex inlet to make a seal (important!) and slowly push 1000 μL of 100% molecular grade EtOH into the sterivex filter. Repeat step with a new tip, so the total volume in the sterivex is 2000 μL.
+2. Cap the sterivex inlet with a sterivex/syringe cap. Once sealed, shake the sterivex to ensure all sides of the filter paper have been saturated with EtOH.
+3. Label outside of sterivex with eDNA sample number.
+4. Put the entire sealed cartridge into a small labeled whirl-pak. Place all sterivex from a single site (replicates or samples taken at different depths in a single niskin rosette/CTD cast) into a single gallon plastic bag. Store in -20˚C freezer.
 
 ### Storage
 
@@ -298,7 +299,7 @@ Any issues with storage should be noted. Samples **may potentially** remain pres
 
 ### Quality Control
 
-A field negative control consisting of sterile RO water in a pre-filled and sealed (prior to fieldwork) 1 L bottle is filtered at the start and end of a cruise using new sterile peristaltic tube and fittings. If more than 50 samples are collected on a cruise, an additional negative control is filtered every 50 samples. 
+A field blank consisting of sterile RO water in a pre-filled and sealed (prior to fieldwork) 1 L bottle is filtered at the start and end of a cruise using new sterile peristaltic tube and fittings. If more than 50 samples are collected on a cruise, an additional field blank  is filtered every 50 samples. 
 
 ### Basic Troubleshooting Guide
 
