@@ -86,7 +86,7 @@ samp_size_unit: mL
 | 1.0.0 | 2024-05-30 | Initial release |
 | 1.1.0 | 2025-05-29 | 	Addition of FAIR eDNA terms in YAML frontmatter, formatting edits, and minor content revisions |
 
-## ACRONYMS AND ABBREVIATIONS
+### Acronyms and Abbreviations
 
 | ACRONYM / ABBREVIATION | DEFINITION |
 | ------------- | ------------- |
@@ -103,7 +103,7 @@ samp_size_unit: mL
 |ROV| Remotely Operated Vehicle|
 |UW| University of Washington
 
-## GLOSSARY
+### Glossary
 
 | SPECIALISED TERM | DEFINITION |
 | ------------- | ------------- |
